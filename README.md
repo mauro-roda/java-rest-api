@@ -1,8 +1,14 @@
-# java-rest-api
- 
 # API Endpoints
 
-The API is hosted locally at `http://localhost:8080`. You can access the following endpoints:
+To run this API locally, use the following command in your project directory:
+
+```bash
+mvn spring-boot:run
+```
+
+The API will be accessible at `http://localhost:8080`.
+
+---
 
 ## 1. Sum
 **Endpoint:** `GET /sum`
